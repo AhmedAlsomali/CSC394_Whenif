@@ -1,0 +1,25 @@
+<!--DOCTYPE html -->
+<html>
+
+
+<body>
+<h1> {{ title }}</h1>
+
+{% for obj in object_list %}
+
+<a href='/detail/{{obj.id}}'>{{obj.course_id}}</a></br>
+{{obj.course_name}}</br>
+{{obj.pre_req}}</br>
+{{obj.quarter_ava }}</br>
+{{obj.id}}</br>
+</br><br>
+
+{% endfor %}
+
+</body>
+
+
+
+
+
+</html>
